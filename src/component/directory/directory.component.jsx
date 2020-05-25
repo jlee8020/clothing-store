@@ -41,7 +41,7 @@ class Directory extends Component {
                   linkUrl: ''
                 }
               ]
-        }
+        };
     }
 
     render(){

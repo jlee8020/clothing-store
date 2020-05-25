@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyAXNLNepnL1L7W45MDXIinN8I1Vaz-RFQM",
-    authDomain: "clothing-db-a7edd.firebaseapp.com",
-    databaseURL: "https://clothing-db-a7edd.firebaseio.com",
-    projectId: "clothing-db-a7edd",
-    storageBucket: "clothing-db-a7edd.appspot.com",
-    messagingSenderId: "1021773338300",
-    appId: "1:1021773338300:web:0f61a7b8f845358013a2b9",
-    measurementId: "G-2J46P7KFPX"
+  apiKey: "AIzaSyBHQ6a1g6zNhftz2Td_CUcG9szZKkN1lkA",
+  authDomain: "clothing-db-4084f.firebaseapp.com",
+  databaseURL: "https://clothing-db-4084f.firebaseio.com",
+  projectId: "clothing-db-4084f",
+  storageBucket: "clothing-db-4084f.appspot.com",
+  messagingSenderId: "997891433772",
+  appId: "1:997891433772:web:ed55646895c0a0017d3889",
+  measurementId: "G-56W5YQJGKQ"
   };
 
   firebase.initializeApp(config); 
@@ -32,7 +32,7 @@ const config = {
           email,
           createdAt,
           ...additionalData
-        })
+        });
       }catch(error){
         console.log('error creating user', error.message)
       }
